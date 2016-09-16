@@ -17,7 +17,7 @@ Create a contacts application using HTML, CSS and Javascript.
 
 ## NPM Commands
 - `npm start` start the server on port 3000
-- `npm deps` run it after installing a package
+- `npm run deps` run it after installing a package
 
 ## Screens
 #### Profile
