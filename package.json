@@ -1,0 +1,35 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "contacts",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server data.js --routes routes.json",
+    "shrinkpack": "shrinkpack",
+    "deps": "npm shrinkwrap --dev && npm run shrinkpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelitaooo/contacts.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Angela Ordonez <angelita.cdp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angelitaooo/contacts/issues"
+  },
+  "homepage": "https://github.com/angelitaooo/contacts#readme",
+  "dependencies": {
+    "faker": "^3.1.0",
+    "json-server": "^0.8.21",
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "shrinkpack": "^0.17.0",
+    "shrinkwrap": "^0.4.0"
+  }
+}
